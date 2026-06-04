@@ -24,7 +24,7 @@
             background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
             color: #ffffff;
             text-align: center;
-            padding: 80px 20px 100px;
+            padding: 80px 20px 90px;
         }
 
         .hero .badge {
@@ -45,7 +45,7 @@
             font-weight: 800;
             line-height: 1.2;
             margin-bottom: 20px;
-            max-width: 780px;
+            max-width: 800px;
             margin-left: auto;
             margin-right: auto;
         }
@@ -58,7 +58,7 @@
             font-size: clamp(16px, 2.5vw, 20px);
             color: #c0c8e8;
             max-width: 620px;
-            margin: 0 auto 40px;
+            margin: 0 auto 36px;
             font-weight: 400;
         }
 
@@ -82,19 +82,63 @@
         }
 
         .hero .cta-sub {
-            margin-top: 16px;
+            margin-top: 14px;
             font-size: 13px;
             color: #8a9bc8;
         }
 
-        .hero .cta-sub svg {
-            vertical-align: middle;
-            margin-right: 4px;
+        .hero .cta-urgency {
+            margin-top: 10px;
+            font-size: 12px;
+            color: #6a7fb8;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+        }
+
+        /* ── SOCIAL PROOF STRIP ── */
+        .social-proof {
+            background: #f7f9fc;
+            padding: 28px 20px;
+            text-align: center;
+            border-bottom: 1px solid #eef0f5;
+        }
+
+        .social-proof p {
+            font-size: 13px;
+            color: #7a86a8;
+            font-weight: 500;
+            letter-spacing: 0.3px;
+        }
+
+        .social-proof strong {
+            color: #302b63;
+            font-weight: 700;
+        }
+
+        .proof-icons {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            margin-bottom: 10px;
+            flex-wrap: wrap;
+        }
+
+        .proof-tag {
+            background: #ffffff;
+            border: 1px solid #e0e3ee;
+            border-radius: 6px;
+            padding: 5px 12px;
+            font-size: 12px;
+            color: #4a4a6a;
+            font-weight: 600;
         }
 
         /* ── PROBLEM SECTION ── */
         .problem-section {
-            background: #f7f9fc;
+            background: #ffffff;
             padding: 70px 20px;
             text-align: center;
         }
@@ -122,7 +166,7 @@
             margin-right: auto;
         }
 
-        .problem-section p {
+        .problem-section > p {
             color: #6b7280;
             font-size: 16px;
             max-width: 560px;
@@ -139,7 +183,7 @@
         }
 
         .pain-point {
-            background: #ffffff;
+            background: #f7f9fc;
             border: 1px solid #e5e8f0;
             border-radius: 10px;
             padding: 16px 24px;
@@ -159,7 +203,7 @@
         /* ── WHAT YOU GET SECTION ── */
         .features-section {
             padding: 80px 20px;
-            background: #ffffff;
+            background: #f7f9fc;
         }
 
         .features-section h2 {
@@ -187,7 +231,7 @@
         }
 
         .feature-card {
-            background: #f9fafc;
+            background: #ffffff;
             border: 1px solid #eef0f5;
             border-radius: 14px;
             padding: 32px 28px;
@@ -223,9 +267,48 @@
             line-height: 1.7;
         }
 
+        /* ── MID-PAGE CTA ── */
+        .mid-cta {
+            background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+            padding: 60px 20px;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        .mid-cta h2 {
+            font-size: clamp(22px, 4vw, 32px);
+            font-weight: 700;
+            margin-bottom: 14px;
+        }
+
+        .mid-cta p {
+            color: #c0c8e8;
+            font-size: 16px;
+            max-width: 520px;
+            margin: 0 auto 30px;
+        }
+
+        .mid-cta .cta-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #e0c36a, #c9a84c);
+            color: #1a1a2e;
+            font-size: 17px;
+            font-weight: 700;
+            padding: 16px 45px;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 20px rgba(224, 195, 106, 0.35);
+        }
+
+        .mid-cta .cta-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(224, 195, 106, 0.5);
+        }
+
         /* ── SAMPLE PREVIEW SECTION ── */
         .sample-section {
-            background: #f7f9fc;
+            background: #ffffff;
             padding: 70px 20px;
             text-align: center;
         }
@@ -247,7 +330,7 @@
         }
 
         .sample-box {
-            background: #ffffff;
+            background: #f9fafc;
             border: 1px solid #e5e8f0;
             border-radius: 16px;
             max-width: 700px;
@@ -312,7 +395,8 @@
         }
 
         .sample-insight {
-            background: #f7f9fc;
+            background: #ffffff;
+            border: 1px solid #eef0f5;
             border-radius: 8px;
             padding: 16px;
             margin-bottom: 16px;
@@ -385,8 +469,8 @@
 
         /* ── CATEGORIES SECTION ── */
         .categories-section {
+            background: #f7f9fc;
             padding: 70px 20px;
-            background: #ffffff;
             text-align: center;
         }
 
@@ -413,7 +497,7 @@
         }
 
         .category-tag {
-            background: #f4f5fa;
+            background: #ffffff;
             border: 1px solid #e0e3ee;
             border-radius: 50px;
             padding: 8px 20px;
@@ -544,12 +628,14 @@
 
         /* ── RESPONSIVE ── */
         @media (max-width: 600px) {
-            .hero { padding: 60px 20px 70px; }
+            .hero { padding: 60px 20px 65px; }
             .hero .cta-btn { padding: 16px 36px; font-size: 16px; }
             .features-grid { grid-template-columns: 1fr; }
             .sample-meta { flex-direction: column; gap: 8px; }
             .price-box { padding: 36px 24px; }
             .price-cta { padding: 18px 36px; font-size: 18px; }
+            .proof-icons { gap: 6px; }
+            .social-proof { padding: 22px 16px; }
         }
     </style>
 </head>
@@ -563,9 +649,24 @@
 
         <a href="https://warriorplus.com/o2/a/ykh6yr0/0" class="cta-btn">Get Instant Access — Only $5</a>
         <p class="cta-sub">
-            <svg width="14" height="14" fill="none" viewBox="0 0 24 24"><path stroke="#8a9bc8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
-            Instant digital download · 30-day money-back guarantee
+            Secure checkout · Instant digital download · 30-day money-back guarantee
         </p>
+        <p class="cta-urgency">
+            <svg width="13" height="13" fill="none" viewBox="0 0 24 24"><path stroke="#6a7fb8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+            100% digital — download immediately after payment
+        </p>
+    </section>
+
+    <!-- ═══════════ SOCIAL PROOF STRIP ═══════════ -->
+    <section class="social-proof">
+        <div class="proof-icons">
+            <span class="proof-tag">PLR Sellers</span>
+            <span class="proof-tag">Etsy Creators</span>
+            <span class="proof-tag">Coaches</span>
+            <span class="proof-tag">Digital Product Builders</span>
+            <span class="proof-tag">Content Marketers</span>
+        </div>
+        <p>Trusted by <strong>500+</strong> digital creators building side income with PLR content</p>
     </section>
 
     <!-- ═══════════ PROBLEM ═══════════ -->
@@ -632,6 +733,13 @@
                 <p>Rebrand it, resell it, bundle it, or use it in client work. You keep 100% of the profits — no restrictions, no royalties.</p>
             </div>
         </div>
+    </section>
+
+    <!-- ═══════════ MID-PAGE CTA ═══════════ -->
+    <section class="mid-cta">
+        <h2>Here's What One Entry From the Library Looks Like</h2>
+        <p>Every single one of the 1,000+ entries follows this same format — therapist-style questions, guided insights, and actionable reflection exercises.</p>
+        <a href="https://warriorplus.com/o2/a/ykh6yr0/0" class="cta-btn">See the Full Library — Get Access for $5</a>
     </section>
 
     <!-- ═══════════ SAMPLE PREVIEW ═══════════ -->
@@ -702,7 +810,11 @@
             <span class="category-tag">Boundary Setting</span>
             <span class="category-tag">Grief & Loss</span>
             <span class="category-tag">Relationship Skills</span>
-            <span class="category-tag">+ 25 More</span>
+            <span class="category-tag">Self-Compassion</span>
+            <span class="category-tag">Anger Management</span>
+            <span class="category-tag">Career Growth</span>
+            <span class="category-tag">Financial Stress</span>
+            <span class="category-tag">Sleep & Rest</span>
         </div>
     </section>
 
@@ -756,6 +868,5 @@
         <p>&copy; 2024 ymlux.shop — All rights reserved</p>
     </footer>
 
-<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a0673ea66b511d29',t:'MTc4MDU3OTMyOQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon='{"version":"2024.11.0","token":"1954b47c125f43f8b4338b3c4f804e4f","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
-</body>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a067d7737e2b88cb',t:'MTc4MDU4NTU4Nw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
